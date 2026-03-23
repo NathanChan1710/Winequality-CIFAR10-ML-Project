@@ -1,0 +1,7 @@
+1/ Comment intépréter les graphiques, j'ai pas vraiment compris comment on voit un graph pour améliorer le modèls, comprendre le meilleur model entre plusieurs.
+
+2/ Le nombre d'itération ? est ce qu'on utilise Early Stopping?
+
+3/ Le batch c'est quoi, comment le choisir? savoir s'il faut le baisser, l'augmenter.
+
+4/

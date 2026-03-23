@@ -1,0 +1,114 @@
+# SAÉ Apprentissage pour l'IA — BUT SD S6
+
+Projet réalisé dans le cadre de la SAÉ Apprentissage pour l'IA (M. Métivier, IUT de Paris - Rives de Seine).  
+Ce projet se découpe en deux études sur des données différentes, avec développement de modèles d'apprentissage profond.
+
+## Auteurs
+
+- Étudiant 1
+- Étudiant 2
+
+---
+
+## Structure du projet
+
+```
+projet_sae/
+├── data/                        # Données brutes (non versionnées)
+│   └── winequality-white.csv
+├── models/                      # Modèles entraînés .keras (non versionnés)
+├── results/                     # Résultats sauvegardés .pickle (non versionnés)
+├── notebooks/
+│   ├── etude1_vins.ipynb        # Étude 1 : Prédiction qualité des vins
+│   └── etude2_cifar10.ipynb     # Étude 2 : Classification CIFAR-10
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Études
+
+### Étude 1 — Prédiction de la qualité des vins
+- **Dataset** : `winequality-white.csv` (P. Cortez et al., 2009)
+- **Objectif** : Prédire la qualité d'un vin blanc à partir de ses propriétés physico-chimiques
+- **Modèles** : MLP baseline (1 couche cachée, SGD) + MLP avancé (2 couches cachées, Adam, Dropout)
+- **Métrique** : MAE (Mean Absolute Error)
+
+### Étude 2 — Classification d'images CIFAR-10
+- **Dataset** : CIFAR-10 (via `keras.datasets`)
+- **Objectif** : Classifier des images en 10 catégories
+- **Modèles** : MLP baseline + CNN avec filtres (3x3) et (5x5) + Data Augmentation
+- **Métrique** : Accuracy
+
+---
+
+## Installation
+
+### 1. Cloner le dépôt
+
+```bash
+git clone <url-du-repo>
+cd projet_sae
+```
+
+### 2. Créer et activer l'environnement virtuel
+
+```bash
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# macOS / Linux
+source venv/bin/activate
+```
+
+### 3. Installer les dépendances
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Ajouter les données
+
+Télécharger `winequality-white.csv` et le placer dans le dossier `data/`.  
+Les données CIFAR-10 sont téléchargées automatiquement par Keras.
+
+### 5. Lancer Jupyter
+
+```bash
+jupyter notebook
+```
+
+---
+
+## Utilisation
+
+Ouvrir les notebooks dans l'ordre :
+
+1. `notebooks/etude1_vins.ipynb`
+2. `notebooks/etude2_cifar10.ipynb`
+
+> ⚠️ Les modèles `.keras` et résultats `.pickle` sont sauvegardés automatiquement dans `models/` et `results/`. Au prochain lancement, ils sont rechargés sans réentraînement.
+
+---
+
+## Dépendances principales
+
+| Bibliothèque | Usage |
+|---|---|
+| `tensorflow` / `keras` | Construction et entraînement des modèles |
+| `numpy` | Manipulation des données |
+| `pandas` | Chargement et exploration des données |
+| `matplotlib` | Visualisation des résultats |
+| `scikit-learn` | Prétraitement (normalisation, split) |
+
+---
+
+## Rendu
+
+- **Date limite** : 27 mars 2026
+- **Plateforme** : Moodle
+- **Fichiers à rendre** : 2 notebooks + 2 rapports PDF

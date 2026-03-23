@@ -5,8 +5,8 @@ Ce projet se découpe en deux études sur des données différentes, avec dével
 
 ## Auteurs
 
-- Étudiant 1
-- Étudiant 2
+- Nathan Chan Sing Man
+- Manohy Ratsimba
 
 ---
 

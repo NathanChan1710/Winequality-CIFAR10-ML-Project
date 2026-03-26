@@ -14,18 +14,18 @@ Ce projet se découpe en deux études sur des données différentes, avec dével
 ## Structure du projet
 
 ```
-projet_sae/
-├── data/                        # Données brutes (non versionnées)
+Winequality-CIFAR10-ML-Project/
+├── data/                      # Données brutes (non versionnées)
 │   └── winequality-white.csv
-├── models/                      # Modèles entraînés .keras (non versionnés)
-├── results/                     # Résultats sauvegardés .pickle (non versionnés)
+├── models/                    # Modèles entraînés .keras (non versionnés)
+├── results/                   # Résultats sauvegardés .pickle (non versionnés)
 ├── notebooks/
-│   ├── Winequality_ML.ipynb        # Étude 1 : Prédiction qualité des vins
-│   └── CIFAR-10_ML.ipynb     # Étude 2 : Classification CIFAR-10
+│   ├── Winequality_ML.ipynb   # Étude 1 : Prédiction qualité des vins
+│   └── CIFAR-10_ML.ipynb      # Étude 2 : Classification CIFAR-10
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
-└── livrables/
+└── livrables/                 # Livrables attendu pour le projet
     ├── Etude de la qualité du vin.html
     ├── Etude sur la base CIFAR-10.html
     ├── Rapport de l'étude sur la qualité du vin.pdf
@@ -56,7 +56,7 @@ projet_sae/
 
 ```bash
 git clone <url-du-repo>
-cd projet_sae
+cd Winequality-CIFAR10-ML-Project
 ```
 
 ### 2. Créer et activer l'environnement virtuel
@@ -77,22 +77,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Ajouter les données
-
-Télécharger `winequality-white.csv` et le placer dans le dossier `data/`.  
-Les données CIFAR-10 sont téléchargées automatiquement par Keras.
-
-### 5. Lancer Jupyter
-
-```bash
-jupyter notebook
-```
 
 ---
 
 ## Utilisation
 
-Ouvrir les notebooks dans l'ordre :
+Ouvrir les notebooks : 
 
 1. `notebooks/etude1_vins.ipynb`
 2. `notebooks/etude2_cifar10.ipynb`

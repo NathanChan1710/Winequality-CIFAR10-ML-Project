@@ -20,11 +20,16 @@ projet_sae/
 ├── models/                      # Modèles entraînés .keras (non versionnés)
 ├── results/                     # Résultats sauvegardés .pickle (non versionnés)
 ├── notebooks/
-│   ├── etude1_vins.ipynb        # Étude 1 : Prédiction qualité des vins
-│   └── etude2_cifar10.ipynb     # Étude 2 : Classification CIFAR-10
+│   ├── Winequality_ML.ipynb        # Étude 1 : Prédiction qualité des vins
+│   └── CIFAR-10_ML.ipynb     # Étude 2 : Classification CIFAR-10
 ├── .gitignore
 ├── requirements.txt
-└── README.md
+├── README.md
+└── livrables/
+    ├── Etude de la qualité du vin.html
+    ├── Etude sur la base CIFAR-10.html
+    ├── Rapport de l'étude sur la qualité du vin.pdf
+    └── Rapport de l'étude sur la base CIFAR-10.pdf
 ```
 
 ---

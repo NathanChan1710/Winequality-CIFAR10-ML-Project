@@ -6,6 +6,7 @@ Ce projet se découpe en deux études sur des données différentes, avec dével
 ## Auteurs
 
 - Nathan Chan Sing Man
+- Camille Franceschin
 - Manohy Ratsimba
 
 ---

@@ -26,10 +26,10 @@ Winequality-CIFAR10-ML-Project/
 ├── requirements.txt
 ├── README.md
 └── livrables/                 # Livrables attendu pour le projet
-    ├── Etude de la qualité du vin.html
-    ├── Etude sur la base CIFAR-10.html
-    ├── Rapport de l'étude sur la qualité du vin.pdf
-    └── Rapport de l'étude sur la base CIFAR-10.pdf
+    ├── Notebook_Winequality.html
+    ├── Notebook_CIFAR10.html
+    ├── Rapport_Winequality.pdf
+    └── Rapport_CIFAR10.pdf
 ```
 
 ---

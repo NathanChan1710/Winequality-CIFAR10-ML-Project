@@ -31,6 +31,9 @@ Winequality-CIFAR10-ML-Project/
     ├── Rapport_Winequality.pdf
     └── Rapport_CIFAR10.pdf
 ```
+## Introduction 
+Les réseaux de neurones constituent aujourd’hui l’un des piliers de l’intelligence artificielle. C’est cette technologie qui a rendu possibles les grands modèles de langage (LLM) et les systèmes d’IA que nous connaissons actuellement. Le principe repose sur un apprentissage statistique où l’ordinateur s’appuie sur des données antérieures pour apprendre à classifier, prédire ou encore effectuer des régressions sur des données futures.
+Pour ce faire, le but est d’imiter le fonctionnement de l’intelligence humaine à travers des réseaux de neurones profonds, dits profonds car les neurones artificiels sont organisés en plusieurs couches successives où chaque couche prend le résultat de l’ancienne couche pour produire un résultat.
 
 ---
 
